@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Calc-icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div class="buttons">
+            <img src="images/CLR.png" alt="CLR" onclick="clearDisplay()">
+            <img src="images/7.png" alt="7" onclick="appendNumber('7')">
+            <img src="images/8.png" alt="8" onclick="appendNumber('8')">
+            <img src="images/9.png" alt="9" onclick="appendNumber('9')">
+            <img src="images/divide.png" alt="/" onclick="appendOperator('/')">
+            
+            <img src="images/4.png" alt="4" onclick="appendNumber('4')">
+            <img src="images/5.png" alt="5" onclick="appendNumber('5')">
+            <img src="images/6.png" alt="6" onclick="appendNumber('6')">
+            <img src="images/multiply.png" alt="*" onclick="appendOperator('*')">
+            
+            <img src="images/1.png" alt="1" onclick="appendNumber('1')">
+            <img src="images/2.png" alt="2" onclick="appendNumber('2')">
+            <img src="images/3.png" alt="3" onclick="appendNumber('3')">
+            <img src="images/minus.png" alt="-" onclick="appendOperator('-')">
+            
+            <img src="images/0.png" alt="0" onclick="appendNumber('0')">
+            <img src="images/equals.png" alt="=" onclick="calculate()">
+            <img src="images/plus.png" alt="+" onclick="appendOperator('+')">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
